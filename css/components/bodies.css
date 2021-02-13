@@ -1,0 +1,50 @@
+
+
+
+
+#snake-body {
+	background-color: rgb(40;40;40); 
+	background-image: linear-gradient(-220deg, rgba(0,0,0,0.4),50%, rgba(0,0,0,0.3)), url(../../images/porcelaine/serpent-rouge.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+
+#sculpture-body {
+	background-color: black;
+	background-image: linear-gradient(-220deg, rgba(0,0,0,0.5),50%, rgba(0,0,0,0.3)), url(../../images/sculpture/marbre.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.body h1 {
+	font-family: Old Standard TT, serif;
+	font-size: 60px;
+}
+
+
+
+
+
+#cours-body {
+	background-color: black;
+	background-image: linear-gradient(-220deg, rgba(0,0,0,0.3),50%, rgba(0,0,0,0.1)), url(../../images/cours/pinceaux.jpg);
+	background-size: 4000px 2500px;
+	background-position: center;
+}
+
+
+#porcelaine-body {
+	background-color: black;
+	background-image: linear-gradient(-220deg, rgba(0,0,0,0.5),50%, rgba(0,0,0,0.1)), url(../../images/porcelaine/femme.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+#art-plastique-body {
+    background-color: black;
+	background-image: linear-gradient(-220deg, rgba(0,0,0,0.5),50%, rgba(0,0,0,0.1)), url(../../images/activite-manuelle/foret.jpg);
+	background-size: cover;
+	background-position: center;
+}
+

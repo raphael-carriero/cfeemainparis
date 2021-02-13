@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Mansalva|Playfair+Display:400,700,700i&display=swap);
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Cantarell:700|Gentium+Book+Basic|Lato:100|Old+Standard+TT|Zhi+Mang+Xing&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:500,500i&display=swap');
+
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/bodies.css");
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  margin: 0px;
+  color: black;
+}
+
+h1,h2,h3 {
+  font-family: 'Old Standard TT', serif;
+}
+
+p{
+	line-height: 25px;
+	font-weight: 500;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.zoom-div img {
+	-webkit-transition: .15s ease-in-out;
+	transition: .15s ease-in-out;
+}
+.zoom-div img:hover {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+
+.title-red {
+	color:#BB352A ;
+	text-align: center;
+	font-size: 50px;
+}
+.text-red {
+	color:#BB352A;
+}
+
+
+
+
+.title-black {
+	color:black;
+	text-align: center;
+	font-size: 45px;
+}
+
+.link{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+

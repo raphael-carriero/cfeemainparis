@@ -1,0 +1,107 @@
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cards_fill {
+	display: flex;
+	flex-wrap: wrap;
+}
+.cards img{
+	height: 140px;
+	width: 150px;
+	border-radius: 6px;
+	object-fit: cover;
+}
+
+.cards_fill img{
+	height: 140px;
+	width: 150px;
+	border-radius: 6px;
+	object-fit: fill;
+}
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: white;
+	padding:30px;
+	margin:10px;                           
+	border-radius: 6px;                        
+	box-shadow: 0 10px 30px rgba(0,0,0,.2);
+	flex-basis: 270px;
+	flex-grow: 1;
+
+}
+
+.text {
+	background: white;
+	padding:30px;
+	margin:10px;                           
+	border-radius: 6px;                        
+	box-shadow: 0 10px 30px rgba(0,0,0,.2);
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+
+#upper-card {
+	margin-top: 50px;
+}
+
+.bottom-paragraph{
+	margin-bottom: 40px;
+}
+
+
+.top-space{
+	margin-top: 80px;
+}
+
+#bottom-space{
+	margin-bottom: 80px;
+}
+
+#centered-card {
+	text-align: center;
+
+}
+
+
+.card h3{
+	flex-grow:1;
+	padding-left: 30px;
+	font-size: 20px;
+
+}
+
+
+
+#funkyfamily {
+	transform: rotate(90deg);
+}	
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{ 
+	display:inline-block;
+	padding: 10px;
+
+}
+
+.list-inline i{
+	font-size: 30px;
+	color: white;
+}
+.list-inline i:hover {
+	color :black;
+}
+
+.bottom {
+	margin-bottom: 50px;
+}
+

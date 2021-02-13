@@ -1,0 +1,37 @@
+.container {
+	width:750px;
+	margin:30px auto;
+	
+}
+#red{
+  background: #BB352A;
+  color: white;
+  text-align: center;
+
+}
+#red i{
+  color:white;
+  padding-bottom: 50px;
+}
+
+#red h2{
+  padding-top: 50px;
+}
+
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (max-width: 760px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}

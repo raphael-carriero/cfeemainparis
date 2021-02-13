@@ -1,0 +1,35 @@
+
+.btn-red{
+	background-color: #BB352A;  /*#A0854B; ou #81B8B3;#A0854B;*/
+	color : white;
+	padding: 15px 20px;
+	border-radius: 6px;
+	font-weight: bold;
+	font-family: 'Lora', serif;
+	font-size: 15px;
+
+}
+.btn-red:hover{
+	background-color:black;
+	color: white;
+}
+
+.btn-white {
+	background-color: white;  /*#A0854B; ou #81B8B3;#A0854B;*/
+	color : #BB352A;
+	padding: 15px 20px;
+	border-radius: 6px;
+	font-weight: bold;
+	font-family: 'Old Standard TT', serif;
+	font-size: 16px;	
+
+}
+
+.btn-img:hover {
+	color: black;
+}
+
+.btn-white:hover{
+	background-color:black;
+	color: white;
+}
